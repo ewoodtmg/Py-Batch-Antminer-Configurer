@@ -4,19 +4,18 @@
 import re, requests
 from requests.auth import HTTPDigestAuth
 import pprint
-import config.ini
-import csv
 
 ### Authentication ###
 
 #Import Machine info from config.ini
-username
-password
+from config.ini import username,password
+from config.ini import pool_url,pool_user,pool_pass
 
 #Import from info.csv
-ip = 
-
-
+# Needs to import 1 machine at a time
+from info.csv import *
+ip =
+#I am almost certain that isn't correct, but I'm laying this out for conceptual purposes.
 
 pp = pprint.PrettyPrinter(indent=4)
 
