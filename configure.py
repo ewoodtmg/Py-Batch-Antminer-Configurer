@@ -6,15 +6,17 @@ from requests.auth import HTTPDigestAuth
 import pprint
 import config.ini
 import csv
-#Pull Machine info from config.ini
+
+### Authentication ###
+
+#Import Machine info from config.ini
+username
+password
+
+#Import from info.csv
+ip = 
 
 
-ip = #Import from import.csv
-
-# Authentication:
-username = "root"
-#Replace $PASS with your machine password
-password = "$PASS"
 
 pp = pprint.PrettyPrinter(indent=4)
 
