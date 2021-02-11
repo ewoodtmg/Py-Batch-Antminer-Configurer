@@ -4,7 +4,14 @@
 import re, requests
 from requests.auth import HTTPDigestAuth
 import pprint
+import config.ini
+import csv
+#Pull Machine info from config.ini
 
+
+ip = #Import from import.csv
+
+# Authentication:
 username = "root"
 #Replace $PASS with your machine password
 password = "$PASS"
@@ -56,5 +63,5 @@ def get_miner_config(ip):
     }
     pp.pprint(payload)
 
-#Replace $IP with IP of the machine
+#Replace $IP with IP of the machine. Still needs work to be more fluid
 get_miner_config("$IP")
