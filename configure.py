@@ -7,9 +7,8 @@ import pprint
 
 ### Authentication ###
 
-#Import Machine info from config.ini
-from config.ini import username,password
-from config.ini import pool_url,pool_user,pool_pass
+#Import variables with user configurations from config.ini
+from config.ini import *
 
 #Import from info.csv
 # Needs to import 1 machine at a time
